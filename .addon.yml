@@ -1,4 +1,4 @@
 addons:
   nextcloud-backup:
-    repository: Sebclem/test_bot
+    repository: Sebclem/test_action
     target: nextcloud_backup
