@@ -1,4 +1,4 @@
 addons:
   nextcloud-backup:
-    repository: Sebclem/hassio-nextcloud-backup
+    repository: Sebclem/test_bot
     target: nextcloud_backup
