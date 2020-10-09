@@ -28,17 +28,17 @@ https://github.com/Sebclem/sebclem-hassio-addon-repository
 
 ## Add-ons provided by this repository
 <% addons.forEach(element => { %>
-    ### &#10003; [<%- element.name %>][addon-<%- element.slug %>]
+### &#10003; [<%- element.name %>][addon-<%- element.slug %>]
 
-    ![Latest Version][<%- element.slug %>-version-shield]
-    ![Supports armhf Architecture][<%- element.slug %>-armhf-shield]
-    ![Supports armv7 Architecture][<%- element.slug %>-armv7-shield]
-    ![Supports aarch64 Architecture][<%- element.slug %>-aarch64-shield]
-    ![Supports amd64 Architecture][<%- element.slug %>-amd64-shield]
-    ![Supports i386 Architecture][<%- element.slug %>-i386-shield]
-    ![Docker Pulls][<%- element.slug %>-pulls-shield]
+![Latest Version][<%- element.slug %>-version-shield]
+![Supports armhf Architecture][<%- element.slug %>-armhf-shield]
+![Supports armv7 Architecture][<%- element.slug %>-armv7-shield]
+![Supports aarch64 Architecture][<%- element.slug %>-aarch64-shield]
+![Supports amd64 Architecture][<%- element.slug %>-amd64-shield]
+![Supports i386 Architecture][<%- element.slug %>-i386-shield]
+![Docker Pulls][<%- element.slug %>-pulls-shield]
 
-    <%- element.decription %> 
+<%- element.decription %> 
 <% }); %> 
 
 
@@ -61,7 +61,7 @@ GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
 <% addons.forEach(element => { %>
-    - [Open an issue for the add-on: <%- element.name %>][<%- element.slug %>-issue]
+- [Open an issue for the add-on: <%- element.name %>][<%- element.slug %>-issue]
 <% }); %> 
 
 
@@ -130,15 +130,15 @@ SOFTWARE.
 <% addons.forEach(element => { %>
 
 
-    [addon-<%- element.slug %>]: https://github.com/Sebclem/hassio-nextcloud-backup
-    [<%- element.slug %>-version-shield]: https://img.shields.io/badge/version-<%- element.version %>-blue.svg
-    [<%- element.slug %>-armhf-shield]: https://img.shields.io/badge/armhf-<%- element.armhf ? 'yes-green' : 'no-red' %>.svg
-    [<%- element.slug %>-armv7-shield]: https://img.shields.io/badge/armv7-<%- element.armv7 ? 'yes-green' : 'no-red' %>.svg
-    [<%- element.slug %>-aarch64-shield]: https://img.shields.io/badge/aarch64-<%- element.aarch64 ? 'yes-green' : 'no-red' %>.svg
-    [<%- element.slug %>-amd64-shield]: https://img.shields.io/badge/amd64-<%- element.amd64 ? 'yes-green' : 'no-red' %>.svg
-    [<%- element.slug %>-i386-shield]: https://img.shields.io/badge/i386-<%- element.i386 ? 'yes-green' : 'no-red' %>.svg
-    [<%- element.slug %>-pulls-shield]: https://img.shields.io/docker/pulls/<%- element.pull_image %>.svg
-    [<%- element.slug %>-issue]: https://github.com/<%- element.repo_full %>/issues
+[addon-<%- element.slug %>]: https://github.com/Sebclem/hassio-nextcloud-backup
+[<%- element.slug %>-version-shield]: https://img.shields.io/badge/version-<%- element.version %>-blue.svg
+[<%- element.slug %>-armhf-shield]: https://img.shields.io/badge/armhf-<%- element.armhf ? 'yes-green' : 'no-red' %>.svg
+[<%- element.slug %>-armv7-shield]: https://img.shields.io/badge/armv7-<%- element.armv7 ? 'yes-green' : 'no-red' %>.svg
+[<%- element.slug %>-aarch64-shield]: https://img.shields.io/badge/aarch64-<%- element.aarch64 ? 'yes-green' : 'no-red' %>.svg
+[<%- element.slug %>-amd64-shield]: https://img.shields.io/badge/amd64-<%- element.amd64 ? 'yes-green' : 'no-red' %>.svg
+[<%- element.slug %>-i386-shield]: https://img.shields.io/badge/i386-<%- element.i386 ? 'yes-green' : 'no-red' %>.svg
+[<%- element.slug %>-pulls-shield]: https://img.shields.io/docker/pulls/<%- element.pull_image %>.svg
+[<%- element.slug %>-issue]: https://github.com/<%- element.repo_full %>/issues
 <% }); %> 
 
 
